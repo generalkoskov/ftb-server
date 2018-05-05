@@ -20,6 +20,6 @@ WORKDIR /data
 
 CMD /start
 
-ENV MOTD A Minecraft (FTB Infinity 2.4.1) Server Powered by Docker
+ENV MOTD GeneralKoskov Free the Beast (FTB-Infinity)
 ENV LEVEL world
 ENV JVM_OPTS -Xms2048m -Xmx6144m
