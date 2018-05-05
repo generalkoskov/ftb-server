@@ -1,7 +1,7 @@
 FROM java:8
 
 RUN mkdir /tmp/feed-the-beast && cd /tmp/feed-the-beast && \
-	wget -c https://media.forgecdn.net/files/2459/695/FTBInfinityServer_3.0.1.zip && \
+	wget -c https://www.feed-the-beast.com/projects/ftb-infinity-evolved/files/2459701/download && \
 	unzip FTBInfinity-3.0.1-1.7.10.zip && \
 	rm FTBInfinity-3.0.1-1.7.10.zip && \
 	bash -x FTBInstall.sh && \
