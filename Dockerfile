@@ -22,4 +22,4 @@ CMD /start
 
 ENV MOTD GeneralKoskov Free the Beast (FTB-Infinity)
 ENV LEVEL world
-ENV JVM_OPTS -Xms2048m -Xmx6144m
+ENV JVM_OPTS -Xms1024m -Xmx6144m
